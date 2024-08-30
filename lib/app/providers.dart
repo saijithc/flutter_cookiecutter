@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../features/feature1/providers.dart';
+import 'package:cookiecutter_flutter/features/feature1/providers.dart';
 
 class MainProviders extends StatelessWidget {
+  const MainProviders({required this.child, super.key});
   final Widget child;
-
-  MainProviders({required this.child});
 
   @override
   Widget build(BuildContext context) {
